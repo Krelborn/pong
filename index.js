@@ -1,3 +1,4 @@
-const root = document.querySelector("#root");
+const canvas = document.querySelector("#canvas");
+const graphics = canvas.getContext("2d");
 
-root.innerHTML = `<span>Testing!!</span>`;
+graphics.fillRect(0, 0, 640, 480);
